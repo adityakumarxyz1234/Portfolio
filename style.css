@@ -97,7 +97,7 @@ header{
 
 /* Hero */
 .hero{
-  min-height:calc(100vh - 80px);
+  min-height:auto;
   width:90%;
   margin:auto;
   display:flex;
@@ -486,4 +486,5 @@ footer{
     justify-content:center;
     gap:20px;
   }
+  
 }
