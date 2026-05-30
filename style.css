@@ -442,7 +442,12 @@ footer{
 @media (max-width: 768px){
 
   .hero{
-    padding-top:100px;
+    min-height:auto;
+    flex-direction:column-reverse;
+    justify-content:center;
+    gap:25px;
+    padding-top:90px;
+    padding-bottom:30px;
   }
 
   .hero-text h1{
@@ -472,10 +477,4 @@ footer{
     justify-content:center;
     gap:20px;
   }
-
-  .hero-text p{
-    margin:20px 0;
-    padding:0 10px;
-  }
-
 }
